@@ -8,4 +8,4 @@ if guess > number:
 elif guess < number:
     print("Too low!")
 else:
-    print("Exactly right!")
+    print("Exactly right!") # type: ignore
